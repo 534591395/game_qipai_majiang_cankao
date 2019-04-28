@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=dev node ./src/server.js",
-    "prod": "NODE_ENV=prod node ./src/server.js"
+    "prod": "NODE_ENV=prod node ./src/server.js",
+    "local": "localStart.sh"
   },
   "dependencies": {
     "fibers": "^3.1.1"
