@@ -163,7 +163,6 @@ function update(){
 
 exports.start = function($config){
 	config = $config;
-	config.FOR_HALL_IP = '127.0.0.1';
 	//
 	gameServerInfo = {
 		id:config.SERVER_ID,
