@@ -1,11 +1,11 @@
-﻿var HALL_IP = "10.240.193.59";
+﻿var HALL_IP = "wxgame.dreamrabbit.tech";
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
 var ACCOUNT_PRI_KEY = "^&*#$%()@";
 var ROOM_PRI_KEY = "~!@#$(*&^%$&";
 
-var LOCAL_IP = '10.240.193.59';
+var LOCAL_IP = 'wxgame.dreamrabbit.tech';
 
 exports.mysql = function(){
 	return {

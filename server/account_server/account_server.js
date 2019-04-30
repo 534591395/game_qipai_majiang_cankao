@@ -75,6 +75,7 @@ app.get('/get_version',function(req,res){
 });
 
 app.get('/get_serverinfo',function(req,res){
+	console.log('get_serverinfo');
 	var ret = {
 		version:config.VERSION,
 		hall:hallAddr,

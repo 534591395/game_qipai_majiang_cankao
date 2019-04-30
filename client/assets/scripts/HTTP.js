@@ -1,5 +1,5 @@
 
-var URL = "http://192.168.1.10:9000";
+var URL = "http://wxgame.dreamrabbit.tech:9000";
 
 exports.master_url = null;
 exports.url = null;

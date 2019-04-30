@@ -138,9 +138,11 @@ cc.Class({
         var onGetVersion = function(ret){
             cc.vv.SI = ret;
             if(cc.sys.isNative){
-                var url = cc.url.raw('resources/ver/cv.txt');
+                //var url = cc.url.raw('resources/ver/cv.txt');
+                var url = cc.loader.loadRes('resources/ver/cv.txt');
                 cc.loader.load(url,function(err,data){
                     cc.VERSION = data;
+                    cc.VERSION = '20161227';
                     if(ret.version == null){
                         console.log("error.");
                     }
