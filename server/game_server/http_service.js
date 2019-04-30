@@ -163,7 +163,7 @@ function update(){
 
 exports.start = function($config){
 	config = $config;
-
+	config.FOR_HALL_IP = '127.0.0.1';
 	//
 	gameServerInfo = {
 		id:config.SERVER_ID,
@@ -172,7 +172,7 @@ exports.start = function($config){
 		httpPort:config.HTTP_PORT,
 		load:roomMgr.getTotalRooms(),
 	};
-
+    
 	setInterval(update,1000);
 	app.listen(config.HTTP_PORT,config.FOR_HALL_IP);
 	console.log("game server is listening on " + config.FOR_HALL_IP + ":" + config.HTTP_PORT);
