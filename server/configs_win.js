@@ -9,7 +9,7 @@ var LOCAL_IP = 'wxgame.dreamrabbit.tech';
 
 exports.mysql = function(){
 	return {
-		HOST:'wxgame.dreamrabbit.tech',
+		HOST:'106.12.30.146',
 		USER:'root',
 		PSWD:'WangYang534591395@qq.com',
 		DB:'db_babykylin',
