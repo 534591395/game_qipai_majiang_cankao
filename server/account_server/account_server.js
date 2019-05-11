@@ -78,7 +78,7 @@ app.get('/get_version',function(req,res){
 
 // TODU
 app.get('/get_serverinfo',function(req,res){
-	console.log('get_serverinfo');
+	console.log('get_serverinfo', hallAddr);
 	var ret = {
 		version:config.VERSION,
 		hall:hallAddr,
