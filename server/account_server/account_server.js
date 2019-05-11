@@ -16,7 +16,9 @@ var config = null;
 
 exports.start = function(cfg){
 	config = cfg;
-	hallAddr = config.HALL_IP  + ":" + config.HALL_CLIENT_PORT;
+	//hallAddr = config.HALL_IP  + ":" + config.HALL_CLIENT_PORT;
+	hallAddr = '106.12.30.146'  + ":" + config.HALL_CLIENT_PORT;
+	
 	app.listen(config.CLIENT_PORT);
 	console.log("account server is listening on " + config.CLIENT_PORT);
 }
@@ -79,7 +81,7 @@ app.get('/get_serverinfo',function(req,res){
 	console.log('get_serverinfo');
 	var ret = {
 		version:config.VERSION,
-		hall: '106.12.30.146',
+		hall:hallAddr,
 		appweb:config.APP_WEB,
 	}
 	send(res,ret);
