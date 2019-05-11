@@ -7,21 +7,19 @@
     "scheme": "https",
     "skipRecord": false
   },
-  "appBundle": false,
-  "baidugame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "testappid",
-    "orientation": "portrait",
-    "subContext": ""
-  },
+  "appKey": "",
+  "appSecret": "",
   "encryptJs": true,
   "excludeScenes": [],
   "fb-instant-games": {},
+  "includeAnySDK": false,
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
   "md5Cache": false,
   "mergeStartScene": false,
+  "oauthLoginServer": "",
   "optimizeHotUpdate": false,
   "orientation": {
     "landscapeLeft": true,
@@ -30,12 +28,13 @@
     "upsideDown": false
   },
   "packageName": "com.babykylin.qpgames",
+  "privateKey": "",
   "qqplay": {
     "REMOTE_SERVER_ROOT": "",
     "orientation": "portrait"
   },
   "startScene": "7898c3aa-75db-4523-8b22-e60bf7d83784",
-  "title": "SCMJ",
+  "title": "majiang",
   "webOrientation": "landscape",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
