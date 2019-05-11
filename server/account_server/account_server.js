@@ -74,11 +74,12 @@ app.get('/get_version',function(req,res){
 	send(res,ret);
 });
 
+// TODU
 app.get('/get_serverinfo',function(req,res){
 	console.log('get_serverinfo');
 	var ret = {
 		version:config.VERSION,
-		hall:hallAddr,
+		hall: '106.12.30.146',
 		appweb:config.APP_WEB,
 	}
 	send(res,ret);
