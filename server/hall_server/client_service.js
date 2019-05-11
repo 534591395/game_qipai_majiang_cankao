@@ -196,7 +196,10 @@ app.get('/enter_private_room',function(req,res){
 			if(enterInfo){
 				var ret = {
 					roomid:roomId,
-					ip:enterInfo.ip,
+
+					// TDOD
+					//ip:enterInfo.ip,
+					ip: '106.12.30.146',
 					port:enterInfo.port,
 					token:enterInfo.token,
 					time:Date.now()
